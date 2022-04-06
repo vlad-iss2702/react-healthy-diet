@@ -25,6 +25,7 @@
     z-index: 4;
     opacity: 0;
     -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
     -o-transition: all 0.5s 0s ease;
     transition: all 0.5s 0s ease;
     .header-logo {
@@ -36,6 +37,7 @@
 }
 .sticky-open {
     -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
     -o-transition: all 0.5s 0s ease;
     transition: all 0.5s 0s ease;
     opacity: 1;
@@ -56,6 +58,7 @@
             position: relative;
             text-transform: capitalize;
             -webkit-transition: all 0.3s 0s ease;
+            -moz-transition: all 0.3s 0s ease;
             -o-transition: all 0.3s 0s ease;
             transition: all 0.3s 0s ease;
             &:before {
@@ -67,6 +70,7 @@
                 content: '';
                 opacity: 0;
                 -webkit-transition: all 0.3s 0s ease;
+                -moz-transition: all 0.3s 0s ease;
                 -o-transition: all 0.3s 0s ease;
                 transition: all 0.3s 0s ease;
                 transform: scaleX(0);
@@ -110,6 +114,7 @@
     font-size: 17px;
     cursor: pointer;
     -webkit-transition: all 0.3s 0s ease;
+    -moz-transition: all 0.3s 0s ease;
     -o-transition: all 0.3s 0s ease;
     transition: all 0.3s 0s ease;
     &:hover {
@@ -126,6 +131,7 @@
     left: 0;
     z-index: 3;
     -webkit-transition: all 0.3s 0s ease;
+    -moz-transition: all 0.3s 0s ease;
     -o-transition: all 0.3s 0s ease;
     transition: all 0.3s 0s ease;
 }
@@ -186,6 +192,7 @@
     opacity: 0;
     cursor: pointer;
     -webkit-transition: all 0.3s 0s ease;
+    -moz-transition: all 0.3s 0s ease;
     -o-transition: all 0.3s 0s ease;
     transition: all 0.3s 0s ease;
     z-index: 3;

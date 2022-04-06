@@ -1,19 +1,18 @@
 import React from 'react';
-import MainSlider from '../mainSlider/MainSlider';
-import MainContent from '../mainContent/MainContent';
-import MainVideo from '../mainVideo/MainVideo';
-import MainReview from '../mainReview/MainReview';
+import AppHeader from '../appHeader/AppHeader';
+import PageHome from '../../pages/PageHome';
+import AppFooter from '../appFooter/AppFooter';
+
 
 import './app.scss';
  
 function App() {
   return (
-    <main>
-      <MainSlider />  
-      <MainContent />
-      <MainVideo />
-      <MainReview />
-    </main>
+    <>
+      <AppHeader />
+      <PageHome />
+      <AppFooter />
+    </>
   )
 }
      
