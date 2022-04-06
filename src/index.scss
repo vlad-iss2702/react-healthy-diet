@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+aside,
+nav,
+footer,
+header,
+section {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	//min-width: $minWidth;
+}
+body {
+	line-height: 1;
+	//font-family: $fontFamily;
+	//text-rendering: optimizeLegibility;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	//font-family: $fontFamily;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+//-webkit-overflow-scrolling: touch;
+//animation-play-state: paused !important;
+
+
+
+.flex-standart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  max-width: 1210px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+img {
+max-width: 100%;
+}
+a {
+  -webkit-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+  font-family: "Paytone One", sans-serif;
+}
+.display-none {
+  display: none;
+}
+.margin-t-90 {
+  margin-top: 90px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800|Pacifico|Paytone+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('./resources/fonts/icomoon.eot'),
+    url('./resources/fonts/icomoon.ttf') format('truetype'),
+    url('./resources/fonts/icomoon.woff') format('woff'),
+    url('./resources/fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-search:before {
+    content: "\e90c";
+  }
+  .icon-comments:before {
+    content: "\e90a";
+  }
+  .icon-user:before {
+    content: "\e90b";
+  }
+  .icon-plus:before {
+    content: "\e905";
+  }
+  .icon-play:before {
+    content: "\e904";
+  }
+  .icon-google-plus:before {
+    content: "\e901";
+  }
+  .icon-instagram:before {
+    content: "\e900";
+  }
+  .icon-brand:before {
+    content: "\e900";
+  }
+  .icon-social:before {
+    content: "\e900";
+  }
+  .icon-mail:before {
+    content: "\e910";
+  }
+  .icon-device-tablet:before {
+    content: "\e90d";
+  }
+  .icon-home-outline:before {
+    content: "\e90e";
+  }
+  .icon-arrow-up-thick:before {
+    content: "\e903";
+  }
+  .icon-vertical_align_top:before {
+    content: "\e902";
+  }
+  .icon-list:before {
+    content: "\e908";
+  }
+  .icon-angle-left:before {
+    content: "\e906";
+  }
+  .icon-facebook:before {
+    content: "\e907";
+  }
+  .icon-angle-right:before {
+    content: "\e90f";
+  }
+  .icon-chevron-up:before {
+    content: "\e912";
+  }
+  .icon-chevron-down:before {
+    content: "\e916";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-close:before {
+    content: "\e909";
+  }
+  
