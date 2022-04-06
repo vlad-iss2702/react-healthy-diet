@@ -1,0 +1,97 @@
+.index-review {
+    text-align: center;
+    margin-bottom: 90px;
+    h3 {
+        font-size: 40px;
+        font-family: "Pacifico", cursive;
+        color: #d3d70e;
+        position: relative;
+        margin-bottom: 20px;
+        display: block;
+    }
+    h4 {
+        font-size: 50px;
+        font-weight: 700;
+        color: #1A0D01;
+        font-family: "Montserrat", sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+    }
+}
+.review-carousel {
+    padding: 0 100px;
+}
+.review-carousel-item {
+    p {
+        color: #040E27;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    img {
+        width: auto !important;
+        height: 100px;
+        margin: 0 auto 10px auto;
+        border-radius: 50%;
+    }
+    .review-autor {
+        color: #040E27;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 0;
+    }
+}
+.review-carousel {
+    .owl-nav {
+        font-size: 18px;
+        .owl-prev {
+            color: #78777787 !important;
+            position: absolute;
+            left: 0;
+            margin: 0 auto !important;
+            border-radius: 0 !important;
+            top: 50px;
+            cursor: pointer !important;
+            display: block;
+            //background: #78777787 !important;
+            border: 1px solid #78777787 !important;
+            height: 40px;
+            width: 40px;
+            border-radius: 50% !important;
+            -webkit-transition: all 0.7s 0s ease;
+            -moz-transition: all 0.7s 0s ease;
+            -o-transition: all 0.7s 0s ease;
+            transition: all 0.7s 0s ease;
+            &:hover {
+                background: #78777787 !important;
+                color: #fff !important;
+            }
+        }
+        .owl-next {
+            color: #78777787 !important;
+            position: absolute;
+            right: 0;
+            margin: 0 auto !important;
+            border-radius: 0 !important;
+            top: 50px;
+            cursor: pointer !important;
+            display: block;
+            //background: #78777787 !important;
+            border: 1px solid #78777787 !important;
+            height: 40px;
+            width: 40px;
+            border-radius: 50% !important;
+            -webkit-transition: all 0.7s 0s ease;
+            -moz-transition: all 0.7s 0s ease;
+            -o-transition: all 0.7s 0s ease;
+            transition: all 0.7s 0s ease;
+            &:hover {
+                background: #78777787 !important;
+                color: #fff !important;
+            }
+        }
+    }
+}

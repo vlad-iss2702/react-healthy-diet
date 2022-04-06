@@ -1,0 +1,28 @@
+.index-back {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-top: 90px;
+}
+.index-back-white {
+    background: #fff;
+}
+.section-title {
+    text-align: center;
+    span {
+        font-size: 40px;
+        font-family: "Pacifico", cursive;
+        color: #d3d70e;
+        position: relative;
+        margin-bottom: 20px;
+        display: block;
+    }
+    h3 {
+        font-size: 50px;
+        font-weight: 700;
+        color: #1A0D01;
+        font-family: "Montserrat", sans-serif;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,42 @@
+.index-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+    padding-bottom: 90px;
+}
+.index-about__banner {
+    width: 50%;
+    position: relative;
+    .index-about__banner-one {
+        width: 540px;
+        height: 700px;
+    }
+}
+.index-about__info {
+    width: 50%;
+    h3 {
+        font-size: 40px;
+        font-family: "Pacifico", cursive;
+        color: #d3d70e;
+        position: relative;
+        margin-bottom: 20px;
+        display: block;
+    }
+    h4 {
+        font-size: 50px;
+        font-weight: 700;
+        color: #1A0D01;
+        font-family: "Montserrat", sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 21px;
+        margin-bottom: 6px;
+        color: #6E6E6E;
+        font-family: "Montserrat", sans-serif;
+    }
+}

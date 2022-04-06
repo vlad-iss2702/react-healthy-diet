@@ -1,21 +1,20 @@
 import React from 'react';
-import Navbar from '../navBar';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import MainSlider from '../mainSlider/MainSlider';
+import MainContent from '../mainContent/MainContent';
+import MainVideo from '../mainVideo/MainVideo';
+import MainReview from '../mainReview/MainReview';
 
-import AppHeader from '../appHeader/AppHeader';
-
-import Home from '../../pages/PageHome';
-import About from '../../pages/PageAbout';
-import Contact from '../../pages/PageContact';
-import Blogs from '../../pages/PageBlog';
-import Menu from '../../pages/PageMenu';
-
+import './app.scss';
  
 function App() {
-    return (
-        
-        <AppHeader />
-    );
+  return (
+    <main>
+      <MainSlider />  
+      <MainContent />
+      <MainVideo />
+      <MainReview />
+    </main>
+  )
 }
      
 export default App;
