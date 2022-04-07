@@ -1,0 +1,86 @@
+.blog-list {
+    width: 65%;
+}
+.blog-item-img {
+    position: relative;
+    img {
+        width: 100%;
+    }
+    section {
+        position: absolute;
+        height: 90px;
+        width: 90px;
+        bottom: -20px;
+        left: 20px;
+        background: #01745b;
+        color: #fff;
+        padding: 13px 30px;
+        border-radius: 5px;
+        span {
+            font-size: 30px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            margin-bottom: 7px;
+            display: block;
+        }
+    }
+}
+.blog-item-info {
+    padding: 40px 30px 35px 35px;
+    h4 {
+        margin-bottom: 20px;
+        a {
+            color: #1F1F1F;
+            font-size: 22px;
+            -webkit-transition: all 0.5s 0s ease;
+            -moz-transition: all 0.5s 0s ease;
+            -o-transition: all 0.5s 0s ease;
+            transition: all 0.5s 0s ease;
+            &:hover {
+                color: #01745b;
+            }
+        }
+    }
+    p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        color: #4D4D4D;
+        margin-bottom: 13px;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+.blog-item {
+    //box-shadow: 0px 10px 20px 0px rgb(221 221 221);
+    margin-bottom: 30px;
+}
+.blog-pagination {
+    ul {
+        display: flex;
+        margin-bottom: 60px;
+        li {
+            margin-right: 10px;
+            a {
+                font-size: 14px;
+                color: #8a8a8a;
+                font-weight: 100;
+                width: 45px;
+                height: 45px;
+                border: 1px solid #8a8a8a;
+                display: block;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Raleway', sans-serif;
+                -webkit-transition: all 0.5s 0s ease;
+                -moz-transition: all 0.5s 0s ease;
+                -o-transition: all 0.5s 0s ease;
+                transition: all 0.5s 0s ease;
+                &:hover {
+                    color: #01745b;
+                    border: 1px solid #01745b;
+                }
+            }
+        }
+    }
+}
